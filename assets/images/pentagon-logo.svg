@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 72" width="350" height="72" fill="none">
+  <!-- Pentagon Architectural Geometric Mark -->
+  <g transform="translate(6, 6)">
+    <!-- Pentagon Frame -->
+    <polygon points="30,2 58,22 47,56 13,56 2,22" 
+             fill="#0E1B3D" 
+             stroke="#C5A059" 
+             stroke-width="2.2" 
+             stroke-linejoin="round"/>
+    
+    <!-- Reinforcing Steel Lines -->
+    <line x1="30" y1="2" x2="30" y2="56" stroke="#C5A059" stroke-width="1.2" stroke-dasharray="2 2" opacity="0.5"/>
+    <line x1="2" y1="22" x2="47" y2="56" stroke="#E2C98A" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="58" y1="22" x2="13" y2="56" stroke="#E2C98A" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="10" y1="38" x2="50" y2="38" stroke="#C5A059" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Nodes -->
+    <circle cx="30" cy="38" r="3.5" fill="#C5A059" stroke="#0A1128" stroke-width="1.5"/>
+    <circle cx="30" cy="2" r="2" fill="#E2C98A"/>
+    <circle cx="58" cy="22" r="2" fill="#E2C98A"/>
+    <circle cx="47" cy="56" r="2" fill="#E2C98A"/>
+    <circle cx="13" cy="56" r="2" fill="#E2C98A"/>
+    <circle cx="2" cy="22" r="2" fill="#E2C98A"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="82" y="37" 
+        font-family="'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" 
+        font-size="23" 
+        font-weight="800" 
+        letter-spacing="2.5" 
+        fill="#FFFFFF">PENTAGON</text>
+  
+  <text x="83" y="55" 
+        font-family="'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" 
+        font-size="10.5" 
+        font-weight="600" 
+        letter-spacing="4" 
+        fill="#C5A059">REBAR SERVICES</text>
+</svg>
